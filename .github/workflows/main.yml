@@ -15,7 +15,7 @@ jobs:
     - uses: letstestthatpipe/first-interaction@master
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'this is a legal footer'
+        issue-message: 'this is a legal footer on behalf of %company%'
         pr-message: 'this is a pr legal footer'
     
      
