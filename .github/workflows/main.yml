@@ -3,6 +3,9 @@ name: notices
 on:
   issues:
     types: [opened]
+  pull_request:
+    branches: 
+      - master
     
 
 jobs:
